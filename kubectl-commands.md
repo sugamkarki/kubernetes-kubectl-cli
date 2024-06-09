@@ -41,6 +41,7 @@
 `kubectl version`
 `kubectl get nodes`
 `kubectl get pod`
+`kubectl get pod -o wide`
 `kubectl get services`
 `kubectl get deployment`
 `kubectl get replicaset`
