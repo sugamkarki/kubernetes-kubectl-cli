@@ -36,6 +36,7 @@
 `minikube status`
 `minikube stop`
 `minikube delete`
+Example of starting a service: `minikube service mongo-express-service`
 
 ## kubectl commands
 `kubectl version`
