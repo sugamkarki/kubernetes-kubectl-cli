@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mongo
-        image: mongo:latest
+        image: mongo
         ports:
-        - containerPort: 8001
+        - containerPort: 8080
 
