@@ -1,6 +1,7 @@
 - [Basic kubectl commands](#basic-kubectl-commands)
   - [minicube cluster](#minicube-cluster)
   - [kubectl commands](#kubectl-commands)
+  - [Create base64 encoded for secret](#create-base64-encoded-for-secret)
   - [debugging](#debugging)
   - [create deployment](#create-deployment)
     - [nginx](#nginx)
@@ -45,6 +46,8 @@
 `kubectl get replicaset`
 `kubectl get deployment  nginx-deployment -o yaml > nginx-deployment.yaml`
 
+## Create base64 encoded for secret
+`echo -n 'yoursecret' | base64`
 
 ## debugging
 `kubectl logs {pod-name}`
