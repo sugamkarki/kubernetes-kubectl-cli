@@ -43,6 +43,7 @@
 `kubectl get services`
 `kubectl get deployment`
 `kubectl get replicaset`
+`kubectl get deployment  nginx-deployment -o yaml > nginx-deployment.yaml`
 
 
 ## debugging
